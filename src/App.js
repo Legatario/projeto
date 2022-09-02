@@ -1,15 +1,18 @@
-
+import {useState} from 'react'
 import './App.css';
-import Condicional from './components/Condicional';
+import Saudacao from './components/Saudacao';
+import SeuNome from './components/SeuNome';
+
 
 
 function App() {
-
-
+  const [nome, setNome] = useState()
 
   return (
     <div className="App">
-       <Condicional />
+      <h1>State Lift</h1>
+      <SeuNome setNome={setNome}/>
+      <Saudacao nome={nome}/>
     </div>
   );
 }
