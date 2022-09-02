@@ -5,7 +5,6 @@ function Condicional(){
 
     function enviarEmail(e){
         e.preventDefault()
-        console.log('deu certo')
         setUserEmail(email)
        
     }

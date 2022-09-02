@@ -1,9 +1,6 @@
 function SayMyName(props){
-    return(
-        <div>
-            <p>Fala aí {props.nome}, suave?</p>
-        </div>
-    )
+    return ` ${props.nome}, suave?`
+        
 }
 
 export default SayMyName
