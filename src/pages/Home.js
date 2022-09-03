@@ -11,7 +11,7 @@ function Home(){
             <h1>Home</h1>
             <p>Conteúdo da página</p>
             <HelloWord />
-            <Eventos />
+            <Eventos numero={1}/>
             <SeuNome setNome={setNome}/>
             <Saudacao nome={nome}/>
         </div>
